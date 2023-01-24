@@ -1,9 +1,9 @@
 # timefmt-go
-[![CI Status](https://github.com/itchyny/timefmt-go/workflows/CI/badge.svg)](https://github.com/itchyny/timefmt-go/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/itchyny/timefmt-go)](https://goreportcard.com/report/github.com/itchyny/timefmt-go)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/itchyny/timefmt-go/blob/main/LICENSE)
-[![release](https://img.shields.io/github/release/itchyny/timefmt-go/all.svg)](https://github.com/itchyny/timefmt-go/releases)
-[![pkg.go.dev](https://pkg.go.dev/badge/github.com/itchyny/timefmt-go)](https://pkg.go.dev/github.com/itchyny/timefmt-go)
+[![CI Status](https://github.com/gozelle/timefmt/workflows/CI/badge.svg)](https://github.com/gozelle/timefmt/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gozelle/timefmt)](https://goreportcard.com/report/github.com/gozelle/timefmt)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gozelle/timefmt/blob/main/LICENSE)
+[![release](https://img.shields.io/github/release/itchyny/timefmt-go/all.svg)](https://github.com/gozelle/timefmt/releases)
+[![pkg.go.dev](https://pkg.go.dev/badge/github.com/gozelle/timefmt)](https://pkg.go.dev/github.com/gozelle/timefmt)
 
 ### Efficient time formatting library (strftime, strptime) for Golang
 This is a Go language package for formatting and parsing date time strings.
@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/itchyny/timefmt-go"
+	"github.com/gozelle/timefmt"
 )
 
 func main() {
@@ -60,7 +60,7 @@ Note that `E` and `O` modifier characters are not supported.
 ![](https://user-images.githubusercontent.com/375258/88606920-de475c80-d0b8-11ea-8d40-cbfee9e35c2e.jpg)
 
 ## Bug Tracker
-Report bug at [Issues・itchyny/timefmt-go - GitHub](https://github.com/itchyny/timefmt-go/issues).
+Report bug at [Issues・itchyny/timefmt-go - GitHub](https://github.com/gozelle/timefmt/issues).
 
 ## Author
 itchyny (https://github.com/itchyny)
